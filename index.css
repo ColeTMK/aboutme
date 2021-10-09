@@ -1,5 +1,4 @@
 body {
-  /* Typography Declarations */
   color: #222222;
   font-size: 1em;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -20,20 +19,16 @@ border-top: solid 1em #3cabeb;
 }
 
 .masthead-intro {
-  /* Layout Declarations */
   margin-bottom: 0.1em;
-  /* Typography Declarations */
-  font-family: "Gentium Book Basic", Georgia, serif;
+  font-family: "Verdana";
   font-size: 2em;
   color: #ffffff
 }
 
 .masthead-heading {
-  /* Layout Declarations */
   color: #0c9df1;
   margin-top: -0.2em;
-  /* Typography Declarations */
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Verdana";
   font-weight: bold;
   font-size: 6em;
   letter-spacing: -0.02em;
@@ -53,16 +48,14 @@ border-top: solid 1em #3cabeb;
 .location-section > p,
 .questions-section,
 .content-footer > p {
-  /* Typography Declarations */
   font-weight: 300;
   letter-spacing: 0.05em;
 }
 
 .questions-section > h2 {
-  font-family: "Gentium Book Basic", Georgia, serif;
+  font-family: "Verdana";
   font-size: 1.2em;
   font-weight: bold;
-  /* Layout */
   margin: 2em 0 1em 0;
 }
 
@@ -101,15 +94,8 @@ text-transform: uppercase;
 .introduction > p,
 .location > p,
 .content-footer > p {
-  /* Typography Declarations */
   font-weight: 300;
   letter-spacing: 0.05em;
-}
-h2 {
-  /* Typography Declarations */
-  font-family: "Gentium Book Basic", Georgia, serif;
-  font-size: 1.2em;
-  font-weight: bold;
 }
 
 .introduction-section,
@@ -119,6 +105,8 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
+  text-align: center;
+  font-family: "Verdana";
 }
 .content-footer {
 margin: 50px 0;
@@ -126,10 +114,12 @@ padding: 20px 0;
 text-align: center;
 background-color: #3cabeb;
 text-decoration: none;
+font-family: "Verdana";
 }
 .social > li {
 display: inline-block;
 margin: 0 5px;
+font-family: "Verdana";
 }
 .content-footer > p {
 color: #ffffff;
@@ -139,11 +129,33 @@ a {
   text-decoration: none;
   color: #ffffff;
   text-align: center;
+  font-family: "Verdana";
 }
 b {
   font-weight: bold;
   text-decoration: none;
   color: #ffffff;
+  text-align: center;
+  font-family: "Verdana";
+}
+p {
+  font-weight: bold;
+  text-decoration: none;
+  color: #2381c0;
+  text-align: center;
+  font-family: "Verdana";
+}
+g {
+  font-weight: bold;
+  text-decoration: none;
+  color: #2381c0;
+  text-align: center;
+  font-family: "Verdana";
+}
+h1 {
+  font-family: "Verdana";
+  font-size: 1.8em;
+  font-weight: bold;
   text-align: center;
 }
 
